@@ -6,10 +6,78 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kierrez Zer My Nobia</title>
+  <style>
+    body {
+      background: crimson;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      color: white;
+    }
+
+    img {
+      border-radius: 50%;
+      box-shadow: 0 5px 5px 0 black;
+    }
+
+    button {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background: white;
+      border: 2px solid black;
+      border-radius: 16px;
+      padding: 16px;
+      margin: 16px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      cursor: pointer;
+      transition: all 0.5s;
+    }
+
+    button:hover {
+      box-shadow: 0 5px 5px 0 black;
+      filter: brightness(150%);
+      transform: scale(1.1);
+    }
+
+    button:active {
+      transform: scale(0.9);
+    }
+  </style>
 </head>
 
 <body>
-  <h1>Kierrez Zer My Nobia</h1>
+  <h1>❤Kierrez Zer My Nobia❤</h1>
+  <div>
+    <img
+      src="https://1.bp.blogspot.com/-qsvCBLdgYj8/XCLjZK9_RMI/AAAAAAAABBA/BsQ7kYtn9qkPkQ3VhF8g_1Er73bGs7KGQCLcBGAs/w1200-h630-p-k-no-nu/srewk.jpg"
+      alt="Foto d my">
+  </div>
+  <button id="yes">🌚Si soy🌚</button>
+  <button id="no">😭Nel Perro😭</button>
+
+  <script>
+    const zomosNobios = () => {
+      alert('💞Now zomos NoBioS💞');
+      alert('😱Nuestra VoDa Is MañaNa😱');
+      location.href = "https://youtu.be/am1_JLFDFMw?t=19";
+    };
+    const ebitarKCRompaMyBobo = () => {
+      votonNo.style.position = 'absolute';
+      votonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+      votonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+    };
+
+    window.document.getElementById('yes').onclick = zomosNobios;
+    votonNo = window.document.getElementById('no');
+    votonNo.onmouseover = ebitarKCRompaMyBobo;
+  </script>
 </body>
 
 </html>
