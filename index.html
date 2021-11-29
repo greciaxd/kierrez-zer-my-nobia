@@ -2,82 +2,25 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kierrez Zer My Nobia</title>
-  <style>
-    body {
-      background: crimson;
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      height: 100vh;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-
-    h1 {
-      color: white;
-    }
-
-    img {
-      border-radius: 50%;
-      box-shadow: 0 5px 5px 0 black;
-    }
-
-    button {
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      background: white;
-      border: 2px solid black;
-      border-radius: 16px;
-      padding: 16px;
-      margin: 16px;
-      font-weight: bold;
-      letter-spacing: 2px;
-      cursor: pointer;
-      transition: all 0.5s;
-    }
-
-    button:hover {
-      box-shadow: 0 5px 5px 0 black;
-      filter: brightness(150%);
-      transform: scale(1.1);
-    }
-
-    button:active {
-      transform: scale(0.9);
-    }
-  </style>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_corazón.svg/1200px-Heart_corazón.svg.png" type="image/x-icon">
 </head>
 
-<body>
-  <h1>❤Kierrez Zer My Nobia❤</h1>
+<body class="contenedor">
+  <h1 class="contenedor__titulo">❤ Kierrez Zer My ParTnEr oF Mi LyFe </h1>
   <div>
     <img
       src="https://1.bp.blogspot.com/-qsvCBLdgYj8/XCLjZK9_RMI/AAAAAAAABBA/BsQ7kYtn9qkPkQ3VhF8g_1Er73bGs7KGQCLcBGAs/w1200-h630-p-k-no-nu/srewk.jpg"
-      alt="Foto d my">
+      alt="Foto d my" class="contenedor__imagen" />
   </div>
-  <button id="yes">🌚Si soy🌚</button>
-  <button id="no">😭Nel Perro😭</button>
+  <button id="yes" class="contenedor__boton">🌚Si soy🌚</button>
+  <button id="no" class="contenedor__boton">😭Nel Perro😭</button>
 
-  <script>
-    const zomosNobios = () => {
-      alert('💞Now zomos NoBioS💞');
-      alert('😱Nuestra VoDa Is MañaNa😱');
-      location.href = "https://youtu.be/am1_JLFDFMw?t=19";
-    };
-    const ebitarKCRompaMyBobo = () => {
-      votonNo.style.position = 'absolute';
-      votonNo.style.top = (Math.random() * window.innerHeight) + 'px';
-      votonNo.style.left = (Math.random() * window.innerWidth) + 'px';
-    };
-
-    window.document.getElementById('yes').onclick = zomosNobios;
-    votonNo = window.document.getElementById('no');
-    votonNo.onmouseover = ebitarKCRompaMyBobo;
-  </script>
+  <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
