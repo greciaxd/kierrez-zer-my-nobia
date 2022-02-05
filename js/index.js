@@ -1,4 +1,6 @@
 'use strict';
+let votonSi = window.document.getElementById('yes');
+let votonNo = window.document.getElementById('no');
 
 let partner = prompt('🥰 Dyme 2 naMe 🥰');
 document.querySelector('.contenedor__titulo').innerHTML += partner + ' ❤';
@@ -16,6 +18,5 @@ const ebitarKCRompaMyBobo = () => {
   votonNo.style.left = (Math.random() * window.innerWidth) + 'px';
 };
 
-window.document.getElementById('yes').onclick = zomosNobios;
-let votonNo = window.document.getElementById('no');
-votonNo.onmouseover = ebitarKCRompaMyBobo;
+votonSi.addEventListener('click', zomosNobios);
+votonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
